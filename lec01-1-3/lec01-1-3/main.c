@@ -10,12 +10,14 @@
 #include <math.h>
 
 #define MAX_SIZE 101
+//交换定义为一个宏
+#define SWAP(x,y,t) ((t)=(x),(x)=(y),(y)=(t))
 /*selection sort*/
 void sort(int [], int);
 int main(int argc, const char * argv[]) {
     int i,n;
     int list[MAX_SIZE];
-    printf("Enter the number of numbers to generate:");
+    printf("Enter the number of numbers to generate:\n");
     scanf("%d",&n);
     if (n<1||n>MAX_SIZE)
     {
@@ -37,6 +39,7 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+//选择排序
 void sort(int list[],int n){
     int i,j,temp;
     for (i=0; i<n-1; i++) {
@@ -47,6 +50,5 @@ void sort(int list[],int n){
                 list[j]=temp;
             }
         }
-
     }
 }
