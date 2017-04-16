@@ -8,9 +8,9 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "main.c"
 
 #define MAXSIZE 100 //定义线性表的最大长度
+
 typedef struct
 {
     char key[15];//节点的关键字

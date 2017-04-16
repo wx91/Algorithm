@@ -8,10 +8,6 @@
 
 #include <stdio.h>
 #include "SeqList.h"
-#include "SeqList.c"
-
-
-
 
 int main(int argc, const char * argv[]) {
     int i;
