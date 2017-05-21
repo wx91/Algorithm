@@ -102,7 +102,6 @@ ChainBinTree *BinTreeFind(ChainBinTree *bt,DATA data){
             }
         }
     }
-    return p;
 }
 void BinTreeClear(ChainBinTree *bt){
     if (bt) {
